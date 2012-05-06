@@ -1,0 +1,42 @@
+IncomingNumberSearch
+
+[Overview]
+ This is an android apprication.
+ 
+ When incoming phone call occurs, this application search the phone number using internet automatically.
+
+
+[Author]
+ aremokoremo
+
+[Contents]
+ .
+ ├── AndroidManifest.xml
+ ├── README
+ ├── default.properties
+ ├── proguard.cfg
+ ├── res
+ │   ├── drawable-hdpi
+ │   │   └── icon.png
+ │   ├── drawable-ldpi
+ │   │   └── icon.png
+ │   ├── drawable-mdpi
+ │   │   └── icon.png
+ │   ├── layout
+ │   │   └── main.xml
+ │   └── values
+ │       └── strings.xml
+ └── src
+     └── com
+         └── aremokoremo
+             └── IncomingNumberSearch
+                 ├── BgService.java
+                 ├── Conf.java
+                 ├── MainActivity.java
+                 └── StartupReceiver.java
+
+[Web site]
+ http://d.hatena.ne.jp/aremokoremo/20120506/1336314384
+
+[history]
+ 2012/05/06 first ver created.
